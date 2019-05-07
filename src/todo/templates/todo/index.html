@@ -10,5 +10,10 @@
 </head>
 <body>
   <h1>Title</h1>
+  <ul>
+    {%  for todo in todo_list %}
+    <li>{{ todo.text }}</li>
+    {% endfor %}
+  </ul>
 </body>
 </html>
